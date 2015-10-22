@@ -14,7 +14,7 @@ public class Main {
 
         System.out.println(String.format("Hello %s, let's play %s!\n", player.getName(), game.getName()));
         while (player.isSolvent()) {
-            game.play(player);
+            game.play(player); 
         }
         System.out.println();
         System.out.println(String.format("\nGoodbye %s, thanks for playing!", player.getName()));
